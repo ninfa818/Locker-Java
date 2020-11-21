@@ -1,75 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.laodev.applocker">
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.laodev.applocker">
 
-    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-    <uses-permission android:name="android.permission.GET_TASKS" />
-    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"
-        tools:ignore="ProtectedPermissions" />
-    <uses-permission android:name="android.permission.VIBRATE" />
-    <uses-permission android:name="android.permission.INTERNAL_SYSTEM_WINDOW"
-        tools:ignore="ProtectedPermissions" />
-    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission
+        android:name="android.permission.PACKAGE_USAGE_STATS"
+        tools:ignore="ProtectedPermissions"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
+        android:name="com.laodev.applocker.MyApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:label="@string/app_name"
+        android:manageSpaceActivity="com.laodev.applocker.activities.main.SplashActivity"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <service
-            android:name=".Services.AppCheckServices"
-            android:exported="false" />
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/ad_app_id"/>
+
+        <receiver
+            android:name="com.laodev.applocker.receiver.LockRestarterBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:label="RestartServiceWhenStopped">
+        </receiver>
 
         <activity
-            android:name=".SplashActivity"
-            android:excludeFromRecents="true"
+            android:name="com.laodev.applocker.activities.main.SplashActivity"
             android:label="@string/app_name"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme2">
+            android:screenOrientation="portrait">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
         <activity
-            android:name=".PasswordActivity"
-            android:excludeFromRecents="true"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme" />
+            android:name="com.laodev.applocker.activities.password.DefinePasswordActivity"
+            android:label="Create Password"
+            android:screenOrientation="portrait"/>
         <activity
-            android:name=".PasswordSetActivity"
-            android:excludeFromRecents="true"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme" />
+            android:name="com.laodev.applocker.activities.protect.SplashUnlockActivity"
+            android:label="Unlock"
+            android:screenOrientation="portrait"/>
         <activity
-            android:name=".PasswordRecoverSetActivity"
+            android:name="com.laodev.applocker.activities.protect.UnlockAppActivity"
             android:excludeFromRecents="true"
-            android:label="@string/app_name"
+            android:label=""
+            android:launchMode="singleTask"
+            android:noHistory="true"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme3" />
+            android:theme="@style/unlock_activity_style"/>
         <activity
-            android:name=".PasswordRecoveryActivity"
-            android:excludeFromRecents="true"
-            android:label="@string/app_name"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme3"/>
+            android:name="com.laodev.applocker.activities.setting.SettingsActivity"
+            android:label="Settings"
+            android:screenOrientation="portrait"/>
         <activity
-            android:name=".HomeActivity"
-            android:label="@string/title_activity_home"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:name="com.laodev.applocker.activities.protect.ChangePasswordActivity"
+            android:label="Create a pattern lock"
+            android:screenOrientation="portrait"/>
 
-        <receiver
-            android:name=".Services.BootComplete"
-            android:exported="true">
+        <activity
+            android:name="com.laodev.applocker.activities.main.MainActivity"
+            android:screenOrientation="portrait"/>
+
+        <service android:name="com.laodev.applocker.services.LoadAppListService"/>
+        <service android:name="com.laodev.applocker.services.LockService"/>
+
+        <receiver android:name="com.laodev.applocker.receiver.BootBroadcastReceiver">
             <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED" />
-            </intent-filter>
-            <intent-filter>
-                <action android:name="android.intent.action.PACKAGE_RESTARTED" />
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </receiver>
     </application>

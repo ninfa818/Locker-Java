@@ -1,98 +1,77 @@
 <resources>
-    <string name="app_name">AppLocker</string>
-    <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
-
-    <string name="action_password">Password Change</string>
-    <string name="draw_pattern">Draw pattern to unlock</string>
-    <string name="enter_password">Enter Password</string>
-    <string name="rate_us">Rate us</string>
-
-    <string name="pref_def_delay_time" translatable="false">60</string>
-
-    <string name="locker_invalid_password">Wrong password</string>
-    <string name="click_to_show">Click to show BlurLockView</string>
-    <string name="answer">Enter your answer here</string>
-    <string name="title_activity_home">HomeActivity</string>
-
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="title_activity_settings">Settings</string>
-
-    <!-- Strings related to Settings -->
-
-    <!-- Example General settings -->
-    <string name="pref_header_general">General</string>
-
-    <string name="pref_title_social_recommendations">Enable social recommendations</string>
-    <string name="pref_description_social_recommendations">Recommendations for people to contact
-        based on your message history
-    </string>
-
-    <string name="pref_title_display_name">Display name</string>
-    <string name="pref_default_display_name">John Smith</string>
-
-    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
-    <string-array name="pref_example_list_titles">
-        <item>Always</item>
-        <item>When possible</item>
-        <item>Never</item>
+        
+    <string name="app_name">App Locker</string>
+     
+    <string name="lockscreen_access_pattern_cell_added">Added cell</string>
+        
+    <string name="lockscreen_access_pattern_start">Draw unlock pattern</string>
+        
+    <string name="lockscreen_access_pattern_detected">Pattern has been saved </string>
+        
+    <string name="lockscreen_access_pattern_cleared">Pattern has been deleted </string>
+          
+    <string name="lock_recording_intro_header">Set the App\'s unlock pattern</string>
+        
+    <string name="lock_settings_help_how_to_record">How to draw an unlock pattern</string>
+        
+    <string name="lock_recording_incorrect_too_short">You should connect at least 4 points.</string>
+        
+    <string name="lock_pattern_entered_header">Record pattern</string>
+        
+    <string name="lock_need_to_confirm">Draw the pattern again to confirm</string>
+        
+    <string name="lock_need_to_unlock_wrong">The pattern do not match. Please try again.</string>
+        
+    <string name="password_gestrue_tips">Draw pattern to unlock</string>
+        
+    <string name="password_error_count">The pattern does not match. Please try again.</string>
+        
+    <string name="lock_pattern_confirmed_header">Confirmed Pattern</string>
+       
+    <string-array name="app_lock_time_array">
+                
+        <item>After 15 seconds</item>
+                
+        <item>After 30 seconds</item>
+                
+        <item>After 1 minute</item>
+                
+        <item>After 3 minutes</item>
+                
+        <item>After 5 minutes</item>
+                
+        <item>After 10 minutes</item>
+                
+        <item>After 30 minutes</item>
+                
+        <item>Immediate</item>
+            
     </string-array>
-    <string-array name="pref_example_list_values">
-        <item>1</item>
-        <item>0</item>
-        <item>-1</item>
-    </string-array>
+     
+        
+    <string name="dialog_permission_tip"> Your Android version is greater than or equal Android 5.0, App Locker need to get the \"Application Usage\" permission
+    </string>
+    <string name="welcome_to_the_app_lock">Welcome to the App locker</string>
+    <string name="reset">Reset</string>
+    <string name="create_pattern">Create pattern</string>
+    <string name="please_draw_your_pattern">Please draw your pattern</string>
+    <string name="identity_confirmation">Identity confirmation</string>
+    <string name="search_application">Search Apps</string>
+    <string name="settings">Settings</string>
+    <string name="lock_time">App lock time</string>
+    <string name="locked_with">Lock app when locked the mobile</string>
+    <string name="open">Open</string>
+    <string name="change_pass">Change lock</string>
+    <string name="show_pattern">Show lock pattern</string>
+    <string name="hiding_pass">Hide lock pattern</string>
+    <string name="allow_permission">Allow Permission</string>
+    <string name="warning">Warning</string>
+    <string name="_1_minute">1 minute</string>
+    <string name="apps">Apps</string>
+    <string name="accessibility_service_description">This permission is only used for locking the apps</string>
 
-    <!-- Example settings for Data & Sync -->
-    <string name="pref_header_data_sync">Data &amp; sync</string>
-
-    <string name="pref_title_sync_frequency">Sync frequency</string>
-    <string-array name="pref_sync_frequency_titles">
-        <item>15 minutes</item>
-        <item>30 minutes</item>
-        <item>1 hour</item>
-        <item>3 hours</item>
-        <item>6 hours</item>
-        <item>Never</item>
-    </string-array>
-    <string-array name="pref_sync_frequency_values">
-        <item>15</item>
-        <item>30</item>
-        <item>60</item>
-        <item>180</item>
-        <item>360</item>
-        <item>-1</item>
-    </string-array>
-
-    <string-array name="list_preference_entries">
-        <item>Entry 1</item>
-        <item>Entry 2</item>
-        <item>Entry 3</item>
-    </string-array>
-
-    <string-array name="list_preference_entry_values">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-
-    <string-array name="multi_select_list_preference_default_value" />
-
-    <string name="pref_title_system_sync_settings">System sync settings</string>
-
-    <!-- Example settings for Notifications -->
-    <string name="pref_header_notifications">Notifications</string>
-
-    <string name="pref_title_new_message_notifications">New message notifications</string>
-
-    <string name="pref_title_ringtone">Ringtone</string>
-    <string name="pref_ringtone_silent">Silent</string>
-
-    <string name="pref_title_vibrate">Vibrate</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="ovarlay_permission_description">Permit drawing over other apps</string>
-    <string name="usage_data_access_description">Allow applocker to monitor which other apps you use.</string>
+    <!--admob ids-->
+    <string name="ad_app_id">ca-app-pub-3940256099942544~6300978111</string>
+    <string name="ad_banner_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="ad_interstitial">ca-app-pub-3940256099942544/1033173712</string>
 </resources>
