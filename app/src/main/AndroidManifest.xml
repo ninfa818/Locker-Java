@@ -14,29 +14,25 @@
     <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
-        android:name="com.laodev.applocker.MyApp"
+        android:name=".MyApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:label="@string/app_name"
-        android:manageSpaceActivity="com.laodev.applocker.activities.main.SplashActivity"
+        android:manageSpaceActivity=".activities.main.SplashActivity"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
 
-        <meta-data
-            android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="@string/ad_app_id"/>
-
         <receiver
-            android:name="com.laodev.applocker.receiver.LockRestarterBroadcastReceiver"
+            android:name=".receiver.LockRestarterBroadcastReceiver"
             android:enabled="true"
             android:exported="true"
             android:label="RestartServiceWhenStopped">
         </receiver>
 
         <activity
-            android:name="com.laodev.applocker.activities.main.SplashActivity"
+            android:name=".activities.main.SplashActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -46,15 +42,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.laodev.applocker.activities.password.DefinePasswordActivity"
+            android:name=".activities.password.DefinePasswordActivity"
             android:label="Create Password"
             android:screenOrientation="portrait"/>
         <activity
-            android:name="com.laodev.applocker.activities.protect.SplashUnlockActivity"
+            android:name=".activities.protect.SplashUnlockActivity"
             android:label="Unlock"
             android:screenOrientation="portrait"/>
         <activity
-            android:name="com.laodev.applocker.activities.protect.UnlockAppActivity"
+            android:name=".activities.protect.UnlockAppActivity"
             android:excludeFromRecents="true"
             android:label=""
             android:launchMode="singleTask"
@@ -62,25 +58,24 @@
             android:screenOrientation="portrait"
             android:theme="@style/unlock_activity_style"/>
         <activity
-            android:name="com.laodev.applocker.activities.setting.SettingsActivity"
+            android:name=".activities.setting.SettingsActivity"
             android:label="Settings"
             android:screenOrientation="portrait"/>
         <activity
-            android:name="com.laodev.applocker.activities.protect.ChangePasswordActivity"
+            android:name=".activities.protect.ChangePasswordActivity"
             android:label="Create a pattern lock"
             android:screenOrientation="portrait"/>
 
         <activity
-            android:name="com.laodev.applocker.activities.main.MainActivity"
+            android:name=".activities.main.MainActivity"
             android:screenOrientation="portrait"/>
 
-        <service android:name="com.laodev.applocker.services.LoadAppListService"/>
-        <service android:name="com.laodev.applocker.services.LockService"/>
+        <service android:name=".services.LoadAppListService"/>
+        <service android:name=".services.LockService"/>
 
-        <receiver android:name="com.laodev.applocker.receiver.BootBroadcastReceiver">
+        <receiver android:name=".receiver.BootBroadcastReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED"/>
-
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </receiver>

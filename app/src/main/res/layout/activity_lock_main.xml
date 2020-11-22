@@ -20,5 +20,4 @@
         <include layout="@layout/item_lock_top"/>
 
     </FrameLayout>
-
 </LinearLayout>

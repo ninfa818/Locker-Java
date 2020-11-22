@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
                 android:layout_height="51dp"
                 android:orientation="vertical">
 
@@ -10,10 +11,11 @@
         android:layout_height="50dp"
         android:background="@drawable/white_bg"
         android:gravity="center_vertical"
-        android:paddingLeft="12dp"
+        android:paddingStart="12dp"
         android:text="@string/_1_minute"
         android:textColor="@color/font_deep_gray"
-        android:textSize="14sp"/>
+        android:textSize="14sp"
+        tools:ignore="RtlSymmetry" />
 
     <View
         android:id="@+id/line"
