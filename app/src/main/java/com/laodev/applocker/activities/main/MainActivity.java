@@ -133,7 +133,7 @@ public class MainActivity extends BaseActivity implements LockMainContract.View,
     public void onClick(@NonNull View view) {
         switch (view.getId()) {
             case R.id.btn_setting:
-//                startActivity(new Intent(this, SettingsActivity.class));
+                startActivity(new Intent(this, SettingsActivity.class));
                 break;
 
         }

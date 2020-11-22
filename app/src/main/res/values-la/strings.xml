@@ -6,7 +6,7 @@
     <string name="lockscreen_access_pattern_start">Basem datorum exempla trahere</string>
     <string name="lockscreen_access_pattern_detected">Exemplum salvus esse</string>
     <string name="lockscreen_access_pattern_cleared">Exemplum deletae</string>
-    <string name="lock_recording_intro_header">Constitue ex App ° \ 's ratio unlock</string>
+    <string name="lock_recording_intro_header">Constitue ex App\'s ratio unlock</string>
     <string name="lock_settings_help_how_to_record">Quam ad hauriendam unlock exemplaris</string>
     <string name="lock_recording_incorrect_too_short">Certe debes coniungere IV puncta.</string>
     <string name="lock_pattern_entered_header">record informationem</string>
