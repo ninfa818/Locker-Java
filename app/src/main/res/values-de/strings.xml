@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App Locker</string>
+
+    <string name="lockscreen_access_pattern_cell_added">Zelle hinzugefügt</string>
+    <string name="lockscreen_access_pattern_start">Unlock-Muster zeichnen</string>
+    <string name="lockscreen_access_pattern_detected">Muster wurde gespeichert</string>
+    <string name="lockscreen_access_pattern_cleared">Muster wurde gelöscht</string>
+    <string name="lock_recording_intro_header">Legen Sie das Entsperrmuster der App fest</string>
+    <string name="lock_settings_help_how_to_record">So zeichnen Sie ein Entsperrmuster</string>
+    <string name="lock_recording_incorrect_too_short">Sie sollten mindestens 4 Punkte verbinden.</string>
+    <string name="lock_pattern_entered_header">Muster aufzeichnen</string>
+    <string name="lock_need_to_confirm">Zeichnen Sie das Muster erneut, um es zu bestätigen</string>
+    <string name="lock_need_to_unlock_wrong">Das Muster stimmt nicht überein. Bitte versuche es erneut.</string>
+    <string name="password_gestrue_tips">Zeichnen Sie das Muster zum Entsperren</string>
+    <string name="password_error_count">Das Muster stimmt nicht überein. Bitte versuche es erneut.</string>
+    <string name="lock_pattern_confirmed_header">Bestätigtes Muster</string>
+    <string name="dialog_permission_tip">  Ihre Android-Version ist größer oder gleich Android 5.0. App Locker muss die Berechtigung "Anwendungsnutzung" erhalten.</string>
+    <string name="welcome_to_the_app_lock">Willkommen im App Locker</string>
+    <string name="reset">Zurücksetzen</string>
+    <string name="create_pattern">Muster erstellen</string>
+    <string name="please_draw_your_pattern">Bitte zeichnen Sie Ihr Muster</string>
+    <string name="identity_confirmation">Identitätsbestätigung</string>
+    <string name="search_application">Apps suchen</string>
+    <string name="settings">die Einstellungen</string>
+    <string name="lock_time">App-Sperrzeit</string>
+    <string name="locked_with">App sperren, wenn das Handy gesperrt ist</string>
+    <string name="open">Öffnen</string>
+    <string name="change_pass">Sperre ändern</string>
+    <string name="show_pattern">Sperrmuster anzeigen</string>
+    <string name="hiding_pass">Verriegelungsmuster ausblenden</string>
+    <string name="allow_permission">Berechtigung zulassen</string>
+    <string name="warning">Warnung</string>
+    <string name="_1_minute">1 Minute</string>
+    <string name="apps">Apps</string>
+    <string name="accessibility_service_description">Diese Berechtigung wird nur zum Sperren der Apps verwendet</string>
+</resources>

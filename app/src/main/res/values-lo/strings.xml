@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App Locker</string>
+
+    <string name="lockscreen_access_pattern_cell_added">ຫ້ອງເພີ່ມ</string>
+    <string name="lockscreen_access_pattern_start">ແຕ້ມຮູບແບບປົດລັອກ</string>
+    <string name="lockscreen_access_pattern_detected">ຮູບແບບຖືກບັນທຶກແລ້ວ</string>
+    <string name="lockscreen_access_pattern_cleared">ຮູບແບບຖືກລຶບອອກແລ້ວ</string>
+    <string name="lock_recording_intro_header">ຕັ້ງຮູບແບບປົດລັອກຂອງແອັບ App</string>
+    <string name="lock_settings_help_how_to_record">ວິທີການແຕ້ມຮູບແບບປົດລັອກ</string>
+    <string name="lock_recording_incorrect_too_short">ທ່ານຄວນເຊື່ອມຕໍ່ຢ່າງຫນ້ອຍ 4 ຈຸດ.</string>
+    <string name="lock_pattern_entered_header">ຮູບແບບການບັນທຶກ</string>
+    <string name="lock_need_to_confirm">ແຕ້ມຮູບແບບອີກເທື່ອ ໜຶ່ງ ເພື່ອຢືນຢັນ</string>
+    <string name="lock_need_to_unlock_wrong">ຮູບແບບບໍ່ກົງກັນ. ກະລຸນາລອງ ໃໝ່ ອີກຄັ້ງ.</string>
+    <string name="password_gestrue_tips">ແຕ້ມຮູບແບບເພື່ອປົດລັອກ</string>
+    <string name="password_error_count">ຮູບແບບບໍ່ກົງກັນ. ກະລຸນາລອງ ໃໝ່ ອີກຄັ້ງ.</string>
+    <string name="lock_pattern_confirmed_header">ຮູບແບບທີ່ຖືກຢືນຢັນ</string>
+    <string name="dialog_permission_tip">  ເວີຊັນ Android ຂອງທ່ານໃຫຍ່ກວ່າຫລືເທົ່າກັບ Android 5.0, App Locker ຈຳ ເປັນຕ້ອງໄດ້ຮັບການອະນຸຍາດ \ "ການ ນຳ ໃຊ້ໃບສະ ໝັກ \".</string>
+    <string name="welcome_to_the_app_lock">ຍິນດີຕ້ອນຮັບສູ່ App locker</string>
+    <string name="reset">ປັບ ໃໝ່</string>
+    <string name="create_pattern">ສ້າງຮູບແບບ</string>
+    <string name="please_draw_your_pattern">ກະລຸນາແຕ້ມຮູບແບບຂອງທ່ານ</string>
+    <string name="identity_confirmation">ການຢັ້ງຢືນຕົວຕົນ</string>
+    <string name="search_application">ຄົ້ນຫາແອັບ Apps</string>
+    <string name="settings">ການຕັ້ງຄ່າ</string>
+    <string name="lock_time">ເວລາລັອກແອັບ App</string>
+    <string name="locked_with">ລັອກແອັບ when ເມື່ອລັອກມືຖື</string>
+    <string name="open">ເປີດ</string>
+    <string name="change_pass">ປ່ຽນລັອກ</string>
+    <string name="show_pattern">ສະແດງຮູບແບບລັອກ</string>
+    <string name="hiding_pass">ເຊື່ອງຮູບແບບລັອກ</string>
+    <string name="allow_permission">ອະນຸຍາດການອະນຸຍາດ</string>
+    <string name="warning">ຄຳ ເຕືອນ</string>
+    <string name="_1_minute">1 ນາທີ</string>
+    <string name="apps">ແອັບ.</string>
+    <string name="accessibility_service_description">ການອະນຸຍາດນີ້ແມ່ນໃຊ້ ສຳ ລັບການລັອກກິດເທົ່ານັ້ນ</string>
+</resources>

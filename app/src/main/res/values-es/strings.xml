@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App Locker</string>
+
+    <string name="lockscreen_access_pattern_cell_added">Celda agregada</string>
+    <string name="lockscreen_access_pattern_start">Dibujar patrón de desbloqueo</string>
+    <string name="lockscreen_access_pattern_detected">El patrón se ha guardado</string>
+    <string name="lockscreen_access_pattern_cleared">El patrón ha sido eliminado</string>
+    <string name="lock_recording_intro_header">Establecer el patrón de desbloqueo de la aplicación</string>
+    <string name="lock_settings_help_how_to_record">Cómo dibujar un patrón de desbloqueo</string>
+    <string name="lock_recording_incorrect_too_short">Debes conectar al menos 4 puntos.</string>
+    <string name="lock_pattern_entered_header">Patrón de registro</string>
+    <string name="lock_need_to_confirm">Dibuja el patrón nuevamente para confirmar</string>
+    <string name="lock_need_to_unlock_wrong">El patrón no coincide. Inténtalo de nuevo.</string>
+    <string name="password_gestrue_tips">Dibuje el patrón para desbloquear</string>
+    <string name="password_error_count">El patrón no coincide. Inténtalo de nuevo.</string>
+    <string name="lock_pattern_confirmed_header">Patrón confirmado</string>
+    <string name="dialog_permission_tip">  Su versión de Android es superior o igual a Android 5.0, App Locker necesita obtener el permiso \ "Uso de la aplicación \".</string>
+    <string name="welcome_to_the_app_lock">Bienvenido al casillero de aplicaciones</string>
+    <string name="reset">Reiniciar</string>
+    <string name="create_pattern">Crear patrón</string>
+    <string name="please_draw_your_pattern">Por favor dibuja tu patrón</string>
+    <string name="identity_confirmation">Confirmación de identidad</string>
+    <string name="search_application">Buscar aplicaciones</string>
+    <string name="settings">Configuraciones</string>
+    <string name="lock_time">Tiempo de bloqueo de la aplicación</string>
+    <string name="locked_with">Bloquear la aplicación cuando se bloquea el móvil</string>
+    <string name="open">Abierto</string>
+    <string name="change_pass">Cambiar cerradura</string>
+    <string name="show_pattern">Mostrar patrón de bloqueo</string>
+    <string name="hiding_pass">Ocultar patrón de bloqueo</string>
+    <string name="allow_permission">Permitir permiso</string>
+    <string name="warning">Advertencia</string>
+    <string name="_1_minute">1 minuto</string>
+    <string name="apps">Aplicaciones</string>
+    <string name="accessibility_service_description">Este permiso solo se usa para bloquear las aplicaciones</string>
+</resources>

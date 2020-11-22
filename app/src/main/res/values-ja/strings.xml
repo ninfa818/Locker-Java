@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App Locker</string>
+
+    <string name="lockscreen_access_pattern_cell_added">追加されたセル</string>
+    <string name="lockscreen_access_pattern_start">ロック解除パターンを描く</string>
+    <string name="lockscreen_access_pattern_detected">パターンが保存されました</string>
+    <string name="lockscreen_access_pattern_cleared">パターンが削除されました</string>
+    <string name="lock_recording_intro_header">アプリのロック解除パターンを設定する</string>
+    <string name="lock_settings_help_how_to_record">ロック解除パターンの描き方</string>
+    <string name="lock_recording_incorrect_too_short">少なくとも4点を接続する必要があります。</string>
+    <string name="lock_pattern_entered_header">記録パターン</string>
+    <string name="lock_need_to_confirm">もう一度パターンを描いて確認してください</string>
+    <string name="lock_need_to_unlock_wrong">パターンが一致しません。 もう一度やり直してください。</string>
+    <string name="password_gestrue_tips">ロックを解除するパターンを描く</string>
+    <string name="password_error_count">パターンが一致しません。 もう一度やり直してください。</string>
+    <string name="lock_pattern_confirmed_header">確認されたパターン</string>
+    <string name="dialog_permission_tip">  AndroidのバージョンがAndroid5.0以上である場合、AppLockerは「アプリケーションの使用」権限を取得する必要があります。</string>
+    <string name="welcome_to_the_app_lock">アプリロッカーへようこそ</string>
+    <string name="reset">リセット</string>
+    <string name="create_pattern">パターンを作成する</string>
+    <string name="please_draw_your_pattern">パターンを描いてください</string>
+    <string name="identity_confirmation">本人確認</string>
+    <string name="search_application">アプリを検索</string>
+    <string name="settings">設定</string>
+    <string name="lock_time">アプリのロック時間</string>
+    <string name="locked_with">モバイルをロックしたときにアプリをロックする</string>
+    <string name="open">開いた</string>
+    <string name="change_pass">ロックを変更する</string>
+    <string name="show_pattern">ロックパターンを表示</string>
+    <string name="hiding_pass">ロックパターンを非表示</string>
+    <string name="allow_permission">許可を与える</string>
+    <string name="warning">警告</string>
+    <string name="_1_minute">1分</string>
+    <string name="apps">アプリ</string>
+    <string name="accessibility_service_description">この権限は、アプリをロックするためにのみ使用されます</string>
+</resources>

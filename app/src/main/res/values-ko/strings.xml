@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App Locker</string>
+
+    <string name="lockscreen_access_pattern_cell_added">추가 된 셀</string>
+    <string name="lockscreen_access_pattern_start">잠금 해제 패턴 그리기</string>
+    <string name="lockscreen_access_pattern_detected">패턴이 저장되었습니다</string>
+    <string name="lockscreen_access_pattern_cleared">패턴이 삭제되었습니다.</string>
+    <string name="lock_recording_intro_header">앱의 잠금 해제 패턴 설정</string>
+    <string name="lock_settings_help_how_to_record">잠금 해제 패턴을 그리는 방법</string>
+    <string name="lock_recording_incorrect_too_short">최소한 4 개의 점을 연결해야합니다.</string>
+    <string name="lock_pattern_entered_header">기록 패턴</string>
+    <string name="lock_need_to_confirm">확인을 위해 패턴을 다시 그립니다.</string>
+    <string name="lock_need_to_unlock_wrong">패턴이 일치하지 않습니다. 다시 시도하십시오.</string>
+    <string name="password_gestrue_tips">잠금 해제 할 패턴 그리기</string>
+    <string name="password_error_count">패턴이 일치하지 않습니다. 다시 시도하십시오.</string>
+    <string name="lock_pattern_confirmed_header">확인 된 패턴</string>
+    <string name="dialog_permission_tip">  Android 버전이 Android 5.0 이상입니다. App Locker는 \ "애플리케이션 사용 \"권한을 가져와야합니다.</string>
+    <string name="welcome_to_the_app_lock">앱 보관함에 오신 것을 환영합니다</string>
+    <string name="reset">초기화</string>
+    <string name="create_pattern">패턴 만들기</string>
+    <string name="please_draw_your_pattern">패턴을 그려주세요</string>
+    <string name="identity_confirmation">신원 확인</string>
+    <string name="search_application">앱 검색</string>
+    <string name="settings">설정</string>
+    <string name="lock_time">앱 잠금 시간</string>
+    <string name="locked_with">모바일 잠금시 앱 잠금</string>
+    <string name="open">열다</string>
+    <string name="change_pass">잠금 변경</string>
+    <string name="show_pattern">잠금 패턴 표시</string>
+    <string name="hiding_pass">잠금 패턴 숨기기</string>
+    <string name="allow_permission">권한 허용</string>
+    <string name="warning">경고</string>
+    <string name="_1_minute">1 분</string>
+    <string name="apps">앱</string>
+    <string name="accessibility_service_description">이 권한은 앱을 잠그는 데만 사용됩니다.</string>
+</resources>

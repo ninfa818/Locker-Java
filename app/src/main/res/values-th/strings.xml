@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App Locker</string>
+
+    <string name="lockscreen_access_pattern_cell_added">เพิ่มเซลล์แล้ว</string>
+    <string name="lockscreen_access_pattern_start">วาดรูปแบบการปลดล็อก</string>
+    <string name="lockscreen_access_pattern_detected">บันทึกรูปแบบแล้ว</string>
+    <string name="lockscreen_access_pattern_cleared">ลบรูปแบบแล้ว</string>
+    <string name="lock_recording_intro_header">ตั้งค่ารูปแบบการปลดล็อกของแอป</string>
+    <string name="lock_settings_help_how_to_record">วิธีการวาดรูปแบบการปลดล็อก</string>
+    <string name="lock_recording_incorrect_too_short">คุณควรเชื่อมต่ออย่างน้อย 4 จุด</string>
+    <string name="lock_pattern_entered_header">รูปแบบการบันทึก</string>
+    <string name="lock_need_to_confirm">วาดรูปแบบอีกครั้งเพื่อยืนยัน</string>
+    <string name="lock_need_to_unlock_wrong">ลายไม่ตรงกัน กรุณาลองอีกครั้ง.</string>
+    <string name="password_gestrue_tips">วาดรูปแบบเพื่อปลดล็อก</string>
+    <string name="password_error_count">ลายไม่ตรงกัน กรุณาลองอีกครั้ง.</string>
+    <string name="lock_pattern_confirmed_header">รูปแบบที่ยืนยัน</string>
+    <string name="dialog_permission_tip">  เวอร์ชัน Android ของคุณมากกว่าหรือเท่ากับ Android 5.0 แอปล็อกเกอร์ต้องได้รับสิทธิ์ \ "การใช้งานแอปพลิเคชัน \"</string>
+    <string name="welcome_to_the_app_lock">ยินดีต้อนรับสู่ App locker</string>
+    <string name="reset">รีเซ็ต</string>
+    <string name="create_pattern">สร้างรูปแบบ</string>
+    <string name="please_draw_your_pattern">กรุณาวาดรูปแบบของคุณ</string>
+    <string name="identity_confirmation">การยืนยันตัวตน</string>
+    <string name="search_application">ค้นหาแอพ</string>
+    <string name="settings">การตั้งค่า</string>
+    <string name="lock_time">เวลาล็อคแอป</string>
+    <string name="locked_with">ล็อคแอพเมื่อล็อคมือถือ</string>
+    <string name="open">เปิด</string>
+    <string name="change_pass">เปลี่ยนล็อค</string>
+    <string name="show_pattern">แสดงรูปแบบการล็อก</string>
+    <string name="hiding_pass">ซ่อนรูปแบบการล็อก</string>
+    <string name="allow_permission">อนุญาตการอนุญาต</string>
+    <string name="warning">คำเตือน</string>
+    <string name="_1_minute">1 นาที</string>
+    <string name="apps">แอป</string>
+    <string name="accessibility_service_description">สิทธิ์นี้ใช้สำหรับล็อกแอปเท่านั้น</string>
+</resources>

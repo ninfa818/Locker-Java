@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App Locker</string>
+
+    <string name="lockscreen_access_pattern_cell_added">添加的单元格</string>
+    <string name="lockscreen_access_pattern_start">绘制解锁图案</string>
+    <string name="lockscreen_access_pattern_detected">图案已保存</string>
+    <string name="lockscreen_access_pattern_cleared">图案已删除</string>
+    <string name="lock_recording_intro_header">设置应用的解锁模式</string>
+    <string name="lock_settings_help_how_to_record">如何绘制解锁图案</string>
+    <string name="lock_recording_incorrect_too_short">您至少应连接4个点。</string>
+    <string name="lock_pattern_entered_header">记录模式</string>
+    <string name="lock_need_to_confirm">再次绘制图案以确认</string>
+    <string name="lock_need_to_unlock_wrong">模式不匹配。 请再试一次。</string>
+    <string name="password_gestrue_tips">绘制图案解锁</string>
+    <string name="password_error_count">模式不匹配。 请再试一次。</string>
+    <string name="lock_pattern_confirmed_header">确认模式</string>
+    <string name="dialog_permission_tip">  您的Android版本大于或等于Android 5.0，App Locker需要获得“应用程序使用”权限。</string>
+    <string name="welcome_to_the_app_lock">欢迎使用App储物柜</string>
+    <string name="reset">重启</string>
+    <string name="create_pattern">建立模式</string>
+    <string name="please_draw_your_pattern">请画你的图案</string>
+    <string name="identity_confirmation">身份确认</string>
+    <string name="search_application">搜索应用</string>
+    <string name="settings">设定值</string>
+    <string name="lock_time">应用锁定时间</string>
+    <string name="locked_with">锁定手机时锁定应用</string>
+    <string name="open">打开</string>
+    <string name="change_pass">换锁</string>
+    <string name="show_pattern">显示锁定模式</string>
+    <string name="hiding_pass">隐藏锁定图案</string>
+    <string name="allow_permission">允许权限</string>
+    <string name="warning">警告</string>
+    <string name="_1_minute">1分钟</string>
+    <string name="apps">应用</string>
+    <string name="accessibility_service_description">此权限仅用于锁定应用程序</string>
+</resources>

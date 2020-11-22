@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App Locker</string>
+
+    <string name="lockscreen_access_pattern_cell_added">Célula adicionada</string>
+    <string name="lockscreen_access_pattern_start">Desenhar padrão de desbloqueio</string>
+    <string name="lockscreen_access_pattern_detected">O padrão foi salvo</string>
+    <string name="lockscreen_access_pattern_cleared">O padrão foi excluído</string>
+    <string name="lock_recording_intro_header">Defina o padrão de desbloqueio do aplicativo</string>
+    <string name="lock_settings_help_how_to_record">Como desenhar um padrão de desbloqueio</string>
+    <string name="lock_recording_incorrect_too_short">Você deve conectar pelo menos 4 pontos.</string>
+    <string name="lock_pattern_entered_header">Padrão de registro</string>
+    <string name="lock_need_to_confirm">Desenhe o padrão novamente para confirmar</string>
+    <string name="lock_need_to_unlock_wrong">O padrão não coincide. Por favor, tente novamente.</string>
+    <string name="password_gestrue_tips">Desenhe um padrão para desbloquear</string>
+    <string name="password_error_count">O padrão não corresponde. Por favor, tente novamente.</string>
+    <string name="lock_pattern_confirmed_header">Padrão Confirmado</string>
+    <string name="dialog_permission_tip">  Sua versão do Android é superior ou igual ao Android 5.0, o App Locker precisa obter a permissão \ "Uso do aplicativo \".</string>
+    <string name="welcome_to_the_app_lock">Bem-vindo ao armário de aplicativos</string>
+    <string name="reset">Redefinir</string>
+    <string name="create_pattern">Criar padrão</string>
+    <string name="please_draw_your_pattern">Por favor, desenhe seu padrão</string>
+    <string name="identity_confirmation">Confirmação de identidade</string>
+    <string name="search_application">Apps de pesquisa</string>
+    <string name="settings">Definições</string>
+    <string name="lock_time">Tempo de bloqueio do aplicativo</string>
+    <string name="locked_with">Bloquear aplicativo ao bloquear o celular</string>
+    <string name="open">Abrir</string>
+    <string name="change_pass">Alterar bloqueio</string>
+    <string name="show_pattern">Mostrar padrão de bloqueio</string>
+    <string name="hiding_pass">Ocultar padrão de bloqueio</string>
+    <string name="allow_permission">Permitir permissão</string>
+    <string name="warning">Atenção</string>
+    <string name="_1_minute">1 minuto</string>
+    <string name="apps">Apps</string>
+    <string name="accessibility_service_description">Esta permissão é usada apenas para bloquear os aplicativos</string>
+</resources>

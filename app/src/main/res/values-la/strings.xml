@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App Locker</string>
+
+    <string name="lockscreen_access_pattern_cell_added">addidit cellulam</string>
+    <string name="lockscreen_access_pattern_start">Basem datorum exempla trahere</string>
+    <string name="lockscreen_access_pattern_detected">Exemplum salvus esse</string>
+    <string name="lockscreen_access_pattern_cleared">Exemplum deletae</string>
+    <string name="lock_recording_intro_header">Constitue ex App ° \ 's ratio unlock</string>
+    <string name="lock_settings_help_how_to_record">Quam ad hauriendam unlock exemplaris</string>
+    <string name="lock_recording_incorrect_too_short">Certe debes coniungere IV puncta.</string>
+    <string name="lock_pattern_entered_header">record informationem</string>
+    <string name="lock_need_to_confirm">Ducatur etiam exemplo confirmat</string>
+    <string name="lock_need_to_unlock_wrong">Ratio non aequare. Quaero, iterum conare.</string>
+    <string name="password_gestrue_tips">Exemplum trahere ad recludam</string>
+    <string name="password_error_count">Ratio non aequare. Quaero, iterum conare.</string>
+    <string name="lock_pattern_confirmed_header">Exemplum confirmatus</string>
+    <string name="dialog_permission_tip">  Android 5.0 version quod Android tua maior quam vel aequalis, App CAPSA ad opus est \ "Ritus Application \" permission.</string>
+    <string name="welcome_to_the_app_lock">Gratam App JOCULAMENTUM</string>
+    <string name="reset">Reddere praeferentias</string>
+    <string name="create_pattern">creare exemplar,</string>
+    <string name="please_draw_your_pattern">Placere exemplum trahere</string>
+    <string name="identity_confirmation">Identity confirmationis</string>
+    <string name="search_application">quaerere Apps</string>
+    <string name="settings">Optiones</string>
+    <string name="lock_time">App tempore cincinno</string>
+    <string name="locked_with">Clausum cum app mobile in cincinno</string>
+    <string name="open">patentibus</string>
+    <string name="change_pass">mutare cincinno</string>
+    <string name="show_pattern">Show vasorum in cincinno</string>
+    <string name="hiding_pass">Exemplum celare cincinno</string>
+    <string name="allow_permission">Licet patitur</string>
+    <string name="warning">monitum</string>
+    <string name="_1_minute">I minute</string>
+    <string name="apps">Apps</string>
+    <string name="accessibility_service_description">Hoc tantum propter permission apps obfirmatis sera</string>
+</resources>

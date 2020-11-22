@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App Locker</string>
+
+    <string name="lockscreen_access_pattern_cell_added">Προστέθηκε κελί</string>
+    <string name="lockscreen_access_pattern_start">Σχεδίαση μοτίβου ξεκλειδώματος</string>
+    <string name="lockscreen_access_pattern_detected">Το μοτίβο έχει αποθηκευτεί</string>
+    <string name="lockscreen_access_pattern_cleared">Το μοτίβο έχει διαγραφεί</string>
+    <string name="lock_recording_intro_header">Ορίστε το μοτίβο ξεκλειδώματος της εφαρμογής</string>
+    <string name="lock_settings_help_how_to_record">Πώς να σχεδιάσετε ένα μοτίβο ξεκλειδώματος</string>
+    <string name="lock_recording_incorrect_too_short">Πρέπει να συνδέσετε τουλάχιστον 4 σημεία.</string>
+    <string name="lock_pattern_entered_header">Πρότυπο εγγραφής</string>
+    <string name="lock_need_to_confirm">Σχεδιάστε ξανά το μοτίβο για επιβεβαίωση</string>
+    <string name="lock_need_to_unlock_wrong">Το μοτίβο δεν ταιριάζει. ΠΑΡΑΚΑΛΩ προσπαθησε ξανα.</string>
+    <string name="password_gestrue_tips">Σχεδιάστε μοτίβο για ξεκλείδωμα</string>
+    <string name="password_error_count">Το μοτίβο δεν ταιριάζει. ΠΑΡΑΚΑΛΩ προσπαθησε ξανα.</string>
+    <string name="lock_pattern_confirmed_header">Επιβεβαιωμένο μοτίβο</string>
+    <string name="dialog_permission_tip">  Η έκδοση Android σας είναι μεγαλύτερη ή ίση με το Android 5.0, το App Locker πρέπει να λάβει την άδεια "Χρήση εφαρμογής".</string>
+    <string name="welcome_to_the_app_lock">Καλώς ήλθατε στο App locker</string>
+    <string name="reset">Επαναφορά</string>
+    <string name="create_pattern">Δημιουργήστε μοτίβο</string>
+    <string name="please_draw_your_pattern">Σχεδιάστε το σχέδιό σας</string>
+    <string name="identity_confirmation">Επιβεβαίωση ταυτότητας</string>
+    <string name="search_application">Αναζήτηση εφαρμογών</string>
+    <string name="settings">Ρυθμίσεις</string>
+    <string name="lock_time">Χρόνος κλειδώματος εφαρμογής</string>
+    <string name="locked_with">Κλείδωμα εφαρμογής όταν κλειδώνετε το κινητό</string>
+    <string name="open">Ανοιξε</string>
+    <string name="change_pass">Αλλαγή κλειδαριάς</string>
+    <string name="show_pattern">Εμφάνιση μοτίβου κλειδώματος</string>
+    <string name="hiding_pass">Απόκρυψη μοτίβου κλειδώματος</string>
+    <string name="allow_permission">Να επιτρέπεται η άδεια</string>
+    <string name="warning">Προειδοποίηση</string>
+    <string name="_1_minute">1 λεπτό</string>
+    <string name="apps">Εφαρμογές</string>
+    <string name="accessibility_service_description">Αυτή η άδεια χρησιμοποιείται μόνο για το κλείδωμα των εφαρμογών</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App Locker</string>
+
+    <string name="lockscreen_access_pattern_cell_added">Dodano komórkę</string>
+    <string name="lockscreen_access_pattern_start">Narysuj wzór odblokowania</string>
+    <string name="lockscreen_access_pattern_detected">Wzór został zapisany</string>
+    <string name="lockscreen_access_pattern_cleared">Wzór został usunięty</string>
+    <string name="lock_recording_intro_header">Ustaw wzór odblokowania aplikacji</string>
+    <string name="lock_settings_help_how_to_record">Jak narysować wzór odblokowania</string>
+    <string name="lock_recording_incorrect_too_short">Powinieneś połączyć co najmniej 4 punkty.</string>
+    <string name="lock_pattern_entered_header">Wzór rekordu</string>
+    <string name="lock_need_to_confirm">Narysuj wzór ponownie, aby potwierdzić</string>
+    <string name="lock_need_to_unlock_wrong">Wzorzec nie pasuje. Proszę spróbuj ponownie.</string>
+    <string name="password_gestrue_tips">Narysuj wzór aby odblokować</string>
+    <string name="password_error_count">Wzorzec nie pasuje. Proszę spróbuj ponownie.</string>
+    <string name="lock_pattern_confirmed_header">Potwierdzony wzór</string>
+    <string name="dialog_permission_tip">  Twoja wersja Androida jest nowsza lub równa Android 5.0, aplikacja App Locker musi uzyskać uprawnienie „Użycie aplikacji”.</string>
+    <string name="welcome_to_the_app_lock">Witamy w szafce aplikacji</string>
+    <string name="reset">Resetowanie</string>
+    <string name="create_pattern">Utwórz wzór</string>
+    <string name="please_draw_your_pattern">Proszę narysować swój wzór</string>
+    <string name="identity_confirmation">Potwierdzenie tożsamości</string>
+    <string name="search_application">Wyszukaj aplikacje</string>
+    <string name="settings">Ustawienia</string>
+    <string name="lock_time">Czas blokady aplikacji</string>
+    <string name="locked_with">Zablokuj aplikację po zablokowaniu telefonu komórkowego</string>
+    <string name="open">otwarty</string>
+    <string name="change_pass">Zmień zamek</string>
+    <string name="show_pattern">Pokaż wzór blokady</string>
+    <string name="hiding_pass">Ukryj wzór blokady</string>
+    <string name="allow_permission">Zezwól na pozwolenie</string>
+    <string name="warning">Ostrzeżenie</string>
+    <string name="_1_minute">1 minuta</string>
+    <string name="apps">Aplikacje</string>
+    <string name="accessibility_service_description">To uprawnienie służy tylko do blokowania aplikacji</string>
+</resources>

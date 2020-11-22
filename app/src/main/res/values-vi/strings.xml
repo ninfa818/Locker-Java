@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App Locker</string>
+
+    <string name="lockscreen_access_pattern_cell_added">Đã thêm ô</string>
+    <string name="lockscreen_access_pattern_start">Vẽ hình mở khóa</string>
+    <string name="lockscreen_access_pattern_detected">Mẫu đã được lưu</string>
+    <string name="lockscreen_access_pattern_cleared">Mẫu đã bị xóa</string>
+    <string name="lock_recording_intro_header">Đặt hình mở khóa của Ứng dụng</string>
+    <string name="lock_settings_help_how_to_record">Cách vẽ hình mở khóa</string>
+    <string name="lock_recording_incorrect_too_short">Bạn nên kết nối ít nhất 4 điểm.</string>
+    <string name="lock_pattern_entered_header">Ghi lại mẫu</string>
+    <string name="lock_need_to_confirm">Vẽ lại mẫu để xác nhận</string>
+    <string name="lock_need_to_unlock_wrong">Các mô hình không phù hợp. Vui lòng thử lại.</string>
+    <string name="password_gestrue_tips">Vẽ hình để mở khóa</string>
+    <string name="password_error_count">Các mô hình không phù hợp. Vui lòng thử lại.</string>
+    <string name="lock_pattern_confirmed_header">Đã xác nhận mẫu</string>
+    <string name="dialog_permission_tip">  Phiên bản Android của bạn lớn hơn hoặc bằng Android 5.0, App Locker cần có quyền \ "Sử dụng ứng dụng \".</string>
+    <string name="welcome_to_the_app_lock">Chào mừng bạn đến với App locker</string>
+    <string name="reset">Cài lại</string>
+    <string name="create_pattern">Tạo mẫu</string>
+    <string name="please_draw_your_pattern">Hãy vẽ mẫu của bạn</string>
+    <string name="identity_confirmation">Xác nhận danh tính</string>
+    <string name="search_application">Tìm kiếm ứng dụng</string>
+    <string name="settings">Cài đặt</string>
+    <string name="lock_time">Thời gian khóa ứng dụng</string>
+    <string name="locked_with">Khóa ứng dụng khi khóa thiết bị di động</string>
+    <string name="open">Mở</string>
+    <string name="change_pass">Thay đổi khóa</string>
+    <string name="show_pattern">Hiển thị mẫu khóa</string>
+    <string name="hiding_pass">Ẩn hình khóa</string>
+    <string name="allow_permission">Cho phép Quyền</string>
+    <string name="warning">Cảnh báo</string>
+    <string name="_1_minute">1 phút</string>
+    <string name="apps">Ứng dụng</string>
+    <string name="accessibility_service_description">Quyền này chỉ được sử dụng để khóa ứng dụng</string>
+</resources>

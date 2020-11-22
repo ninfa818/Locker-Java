@@ -49,8 +49,7 @@
     </string-array>
      
         
-    <string name="dialog_permission_tip"> Your Android version is greater than or equal Android 5.0, App Locker need to get the \"Application Usage\" permission
-    </string>
+    <string name="dialog_permission_tip"> Your Android version is greater than or equal Android 5.0, App Locker need to get the \"Application Usage\" permission.</string>
     <string name="welcome_to_the_app_lock">Welcome to the App locker</string>
     <string name="reset">Reset</string>
     <string name="create_pattern">Create pattern</string>

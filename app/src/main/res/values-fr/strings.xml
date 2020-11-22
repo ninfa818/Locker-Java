@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App Locker</string>
+
+    <string name="lockscreen_access_pattern_cell_added">Cellule ajoutée</string>
+    <string name="lockscreen_access_pattern_start">Dessiner un schéma de déverrouillage</string>
+    <string name="lockscreen_access_pattern_detected">Le motif a été enregistré</string>
+    <string name="lockscreen_access_pattern_cleared">Le motif a été supprimé</string>
+    <string name="lock_recording_intro_header">Définir le schéma de déverrouillage de l\'application</string>
+    <string name="lock_settings_help_how_to_record">Comment dessiner un schéma de déverrouillage</string>
+    <string name="lock_recording_incorrect_too_short">Vous devez connecter au moins 4 points.</string>
+    <string name="lock_pattern_entered_header">Modèle d\'enregistrement</string>
+    <string name="lock_need_to_confirm">Dessinez à nouveau le motif pour confirmer</string>
+    <string name="lock_need_to_unlock_wrong">Le motif ne correspond pas. Veuillez réessayer.</string>
+    <string name="password_gestrue_tips">Motif de dessin pour déverrouiller</string>
+    <string name="password_error_count">Le motif ne correspond pas. Veuillez réessayer.</string>
+    <string name="lock_pattern_confirmed_header">Motif confirmé</string>
+    <string name="dialog_permission_tip">  Votre version d\'Android est supérieure ou égale à Android 5.0, App Locker doit obtenir l\'autorisation \ "Utilisation de l\'application \".</string>
+    <string name="welcome_to_the_app_lock">Bienvenue dans le casier d\'applications</string>
+    <string name="reset">Réinitialiser</string>
+    <string name="create_pattern">Créer un motif</string>
+    <string name="please_draw_your_pattern">Veuillez dessiner votre motif</string>
+    <string name="identity_confirmation">Confirmation d\'identité</string>
+    <string name="search_application">Rechercher des applications</string>
+    <string name="settings">Réglages</string>
+    <string name="lock_time">Heure de verrouillage de l\'application</string>
+    <string name="locked_with">Verrouiller l\'application lorsque le mobile est verrouillé</string>
+    <string name="open">Ouvert</string>
+    <string name="change_pass">Changer le verrou</string>
+    <string name="show_pattern">Afficher le motif de verrouillage</string>
+    <string name="hiding_pass">Masquer le motif de verrouillage</string>
+    <string name="allow_permission">Autoriser l\'autorisation</string>
+    <string name="warning">Attention</string>
+    <string name="_1_minute">1 minute</string>
+    <string name="apps">applications</string>
+    <string name="accessibility_service_description">Cette autorisation n\'est utilisée que pour verrouiller les applications</string>
+</resources>

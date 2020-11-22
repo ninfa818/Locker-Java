@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App Locker</string>
+
+    <string name="lockscreen_access_pattern_cell_added">Cel toegevoegd</string>
+    <string name="lockscreen_access_pattern_start">Teken een ontgrendelingspatroon</string>
+    <string name="lockscreen_access_pattern_detected">Patroon is opgeslagen</string>
+    <string name="lockscreen_access_pattern_cleared">Patroon is verwijderd</string>
+    <string name="lock_recording_intro_header">Stel het ontgrendelingspatroon van de app in</string>
+    <string name="lock_settings_help_how_to_record">Hoe een ontgrendelingspatroon te tekenen</string>
+    <string name="lock_recording_incorrect_too_short">U moet minimaal 4 punten verbinden.</string>
+    <string name="lock_pattern_entered_header">Record patroon</string>
+    <string name="lock_need_to_confirm">Teken het patroon nogmaals om te bevestigen</string>
+    <string name="lock_need_to_unlock_wrong">Het patroon komt niet overeen. Probeer het a.u.b. opnieuw.</string>
+    <string name="password_gestrue_tips">Teken een patroon om te ontgrendelen</string>
+    <string name="password_error_count">Het patroon komt niet overeen. Probeer het a.u.b. opnieuw.</string>
+    <string name="lock_pattern_confirmed_header">Bevestigd patroon</string>
+    <string name="dialog_permission_tip">  Uw Android-versie is hoger dan of gelijk aan Android 5.0, App Locker heeft de toestemming \ "Gebruik van de toepassing \" nodig.</string>
+    <string name="welcome_to_the_app_lock">Welkom bij de app-locker</string>
+    <string name="reset">Reset</string>
+    <string name="create_pattern">Maak een patroon</string>
+    <string name="please_draw_your_pattern">Teken alstublieft uw patroon</string>
+    <string name="identity_confirmation">Identiteitsbevestiging</string>
+    <string name="search_application">Zoek apps</string>
+    <string name="settings">Instellingen</string>
+    <string name="lock_time">App-vergrendelingstijd</string>
+    <string name="locked_with">Vergrendel de app wanneer de mobiel is vergrendeld</string>
+    <string name="open">Open</string>
+    <string name="change_pass">Verander slot</string>
+    <string name="show_pattern">Vergrendelingspatroon weergeven</string>
+    <string name="hiding_pass">Verberg slotpatroon</string>
+    <string name="allow_permission">Toestemming toestaan</string>
+    <string name="warning">Waarschuwing</string>
+    <string name="_1_minute">1 minuut</string>
+    <string name="apps">Apps</string>
+    <string name="accessibility_service_description">Deze toestemming wordt alleen gebruikt om de apps te vergrendelen</string>
+</resources>

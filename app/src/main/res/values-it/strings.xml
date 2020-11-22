@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App Locker</string>
+
+    <string name="lockscreen_access_pattern_cell_added">Cella aggiunta</string>
+    <string name="lockscreen_access_pattern_start">Disegna la sequenza di sblocco</string>
+    <string name="lockscreen_access_pattern_detected">Il motivo è stato salvato</string>
+    <string name="lockscreen_access_pattern_cleared">Il motivo è stato eliminato</string>
+    <string name="lock_recording_intro_header">Imposta la sequenza di sblocco dell\'app</string>
+    <string name="lock_settings_help_how_to_record">Come disegnare una sequenza di sblocco</string>
+    <string name="lock_recording_incorrect_too_short">Dovresti connettere almeno 4 punti.</string>
+    <string name="lock_pattern_entered_header">Registra pattern</string>
+    <string name="lock_need_to_confirm">Disegna di nuovo il motivo per confermare</string>
+    <string name="lock_need_to_unlock_wrong">Il modello non corrisponde. Per favore riprova.</string>
+    <string name="password_gestrue_tips">Disegna la sequenza per sbloccare</string>
+    <string name="password_error_count">Il modello non corrisponde. Per favore riprova.</string>
+    <string name="lock_pattern_confirmed_header">Pattern confermato</string>
+    <string name="dialog_permission_tip">  La tua versione di Android è maggiore o uguale ad Android 5.0, App Locker deve ottenere l\'autorizzazione \ "Uso dell\'applicazione \".</string>
+    <string name="welcome_to_the_app_lock">Benvenuto nell\'armadietto delle app</string>
+    <string name="reset">Ripristina</string>
+    <string name="create_pattern">Crea pattern</string>
+    <string name="please_draw_your_pattern">Per favore disegna il tuo modello</string>
+    <string name="identity_confirmation">Conferma dell\'identità</string>
+    <string name="search_application">Cerca app</string>
+    <string name="settings">impostazioni</string>
+    <string name="lock_time">Tempo di blocco dell\'app</string>
+    <string name="locked_with">Blocca l\'app quando è bloccato il cellulare</string>
+    <string name="open">Aperto</string>
+    <string name="change_pass">Cambia blocco</string>
+    <string name="show_pattern">Mostra sequenza di blocco</string>
+    <string name="hiding_pass">Nascondi sequenza di blocco</string>
+    <string name="allow_permission">Consenti autorizzazione</string>
+    <string name="warning">avvertimento</string>
+    <string name="_1_minute">1 minuto</string>
+    <string name="apps">App</string>
+    <string name="accessibility_service_description">Questa autorizzazione viene utilizzata solo per bloccare le app</string>
+</resources>

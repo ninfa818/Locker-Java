@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App Locker</string>
+
+    <string name="lockscreen_access_pattern_cell_added">S-a adăugat celula</string>
+    <string name="lockscreen_access_pattern_start">Desenați modelul de deblocare</string>
+    <string name="lockscreen_access_pattern_detected">Modelul a fost salvat</string>
+    <string name="lockscreen_access_pattern_cleared">Modelul a fost șters</string>
+    <string name="lock_recording_intro_header">Setați modelul de deblocare al aplicației</string>
+    <string name="lock_settings_help_how_to_record">Cum să desenați un model de deblocare</string>
+    <string name="lock_recording_incorrect_too_short">Ar trebui să conectați cel puțin 4 puncte.</string>
+    <string name="lock_pattern_entered_header">Model de înregistrare</string>
+    <string name="lock_need_to_confirm">Desenați din nou modelul pentru a confirma</string>
+    <string name="lock_need_to_unlock_wrong">Modelul nu se potrivește. Vă rugăm să încercați din nou.</string>
+    <string name="password_gestrue_tips">Desenați modelul pentru deblocare</string>
+    <string name="password_error_count">Modelul nu se potrivește. Vă rugăm să încercați din nou.</string>
+    <string name="lock_pattern_confirmed_header">Model confirmat</string>
+    <string name="dialog_permission_tip">  Versiunea dvs. Android este mai mare sau egală cu Android 5.0, App Locker trebuie să obțină permisiunea \ "Utilizare aplicație \".</string>
+    <string name="welcome_to_the_app_lock">Bine ați venit la dulapul de aplicații</string>
+    <string name="reset">Resetați</string>
+    <string name="create_pattern">Creați un model</string>
+    <string name="please_draw_your_pattern">Vă rog să vă desenați modelul</string>
+    <string name="identity_confirmation">Confirmarea identității</string>
+    <string name="search_application">Căutați aplicații</string>
+    <string name="settings">Setări</string>
+    <string name="lock_time">Durata blocării aplicației</string>
+    <string name="locked_with">Blocați aplicația când este blocat telefonul mobil</string>
+    <string name="open">Deschis</string>
+    <string name="change_pass">Schimbare blocare</string>
+    <string name="show_pattern">Afișați modelul de blocare</string>
+    <string name="hiding_pass">Ascundeți modelul de blocare</string>
+    <string name="allow_permission">Permiteți permisiunea</string>
+    <string name="warning">Avertizare</string>
+    <string name="_1_minute">1 minut</string>
+    <string name="apps">Aplicații</string>
+    <string name="accessibility_service_description">Această permisiune este utilizată numai pentru blocarea aplicațiilor</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App Locker</string>
+
+    <string name="lockscreen_access_pattern_cell_added">Добавлена ячейка</string>
+    <string name="lockscreen_access_pattern_start">Нарисовать графический ключ разблокировки</string>
+    <string name="lockscreen_access_pattern_detected">Шаблон был сохранен</string>
+    <string name="lockscreen_access_pattern_cleared">Шаблон был удален</string>
+    <string name="lock_recording_intro_header">Установите графический ключ для разблокировки приложения</string>
+    <string name="lock_settings_help_how_to_record">Как нарисовать графический ключ для разблокировки</string>
+    <string name="lock_recording_incorrect_too_short">Следует соединить не менее 4 точек.</string>
+    <string name="lock_pattern_entered_header">Шаблон записи</string>
+    <string name="lock_need_to_confirm">Снова нарисуйте узор, чтобы подтвердить</string>
+    <string name="lock_need_to_unlock_wrong">Шаблон не совпадает. Пожалуйста, попробуйте еще раз.</string>
+    <string name="password_gestrue_tips">Нарисуйте узор, чтобы разблокировать</string>
+    <string name="password_error_count">Шаблон не совпадает. Пожалуйста, попробуйте еще раз.</string>
+    <string name="lock_pattern_confirmed_header">Подтвержденный шаблон</string>
+    <string name="dialog_permission_tip">  Ваша версия Android выше или равна Android 5.0, для App Locker необходимо получить разрешение на использование приложения.</string>
+    <string name="welcome_to_the_app_lock">Добро пожаловать в шкафчик приложений</string>
+    <string name="reset">Сброс настроек</string>
+    <string name="create_pattern">Создать выкройку</string>
+    <string name="please_draw_your_pattern">Пожалуйста, нарисуйте свой узор</string>
+    <string name="identity_confirmation">Подтверждение личности</string>
+    <string name="search_application">Искать в приложениях</string>
+    <string name="settings">Настройки</string>
+    <string name="lock_time">Время блокировки приложения</string>
+    <string name="locked_with">Заблокировать приложение при заблокированном мобильном телефоне</string>
+    <string name="open">открыто</string>
+    <string name="change_pass">Заменить замок</string>
+    <string name="show_pattern">Показать шаблон блокировки</string>
+    <string name="hiding_pass">Скрыть шаблон блокировки</string>
+    <string name="allow_permission">Разрешить разрешение</string>
+    <string name="warning">Предупреждение</string>
+    <string name="_1_minute">1 минута</string>
+    <string name="apps">Программы</string>
+    <string name="accessibility_service_description">Это разрешение используется только для блокировки приложений.</string>
+</resources>
