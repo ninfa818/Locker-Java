@@ -1,6 +1,6 @@
 <resources>
         
-    <string name="app_name">App Locker</string>
+    <string name="app_name">AppLock</string>
      
     <string name="lockscreen_access_pattern_cell_added">Added cell</string>
         
@@ -68,4 +68,5 @@
     <string name="_1_minute">1 minute</string>
     <string name="apps">Apps</string>
     <string name="accessibility_service_description">This permission is only used for locking the apps</string>
+    <string name="privacy">Privacy Policy</string>
 </resources>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">App Locker</string>
+    <string name="app_name">AppLock</string>
 
     <string name="lockscreen_access_pattern_cell_added">추가 된 셀</string>
     <string name="lockscreen_access_pattern_start">잠금 해제 패턴 그리기</string>

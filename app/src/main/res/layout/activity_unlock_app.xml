@@ -25,7 +25,7 @@
         android:textSize="@dimen/_18sdp" />
 
 
-    <com.laodev.applocker.widget.LockPatternView
+    <com.laodev.applock.widget.LockPatternView
         android:id="@+id/unlock_lock_view"
         android:layout_width="@dimen/_220sdp"
         android:layout_height="@dimen/_220sdp"

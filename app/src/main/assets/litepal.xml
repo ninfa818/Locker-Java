@@ -3,9 +3,9 @@
     <dbname value="sample" />
     <version value="1" />
     <list>
-        <mapping class="com.laodev.applocker.model.CommLockInfo" />
-        <mapping class="com.laodev.applocker.model.FaviterInfo" />
-        <mapping class="com.laodev.applocker.model.LockPrivate"/>
+        <mapping class="com.laodev.applock.model.CommLockInfo" />
+        <mapping class="com.laodev.applock.model.FaviterInfo" />
+        <mapping class="com.laodev.applock.model.LockPrivate"/>
     </list>
 
     <storage value="external" />

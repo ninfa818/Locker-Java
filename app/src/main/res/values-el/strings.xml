@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">App Locker</string>
+    <string name="app_name">AppLock</string>
 
     <string name="lockscreen_access_pattern_cell_added">Προστέθηκε κελί</string>
     <string name="lockscreen_access_pattern_start">Σχεδίαση μοτίβου ξεκλειδώματος</string>

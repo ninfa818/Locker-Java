@@ -146,9 +146,20 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/_40sdp"
             android:layout_marginTop="@dimen/_15sdp"
-            android:drawableRight="@drawable/right_arrow"
+            android:drawableEnd="@drawable/right_arrow"
             android:gravity="center_vertical"
             android:text="@string/change_pass"
+            android:textColor="#fff"
+            android:textSize="@dimen/_14sdp" />
+
+        <TextView
+            android:id="@+id/btn_privacy"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:drawableEnd="@drawable/right_arrow"
+            android:gravity="center_vertical"
+            android:text="@string/privacy"
             android:textColor="#fff"
             android:textSize="@dimen/_14sdp" />
     </LinearLayout>

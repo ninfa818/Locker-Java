@@ -46,7 +46,7 @@
         android:layout_weight="0.6"
         android:gravity="center|top">
 
-        <com.laodev.applocker.widget.LockPatternView
+        <com.laodev.applock.widget.LockPatternView
             android:id="@+id/unlock_lock_view"
             android:layout_width="@dimen/_200sdp"
             android:layout_height="@dimen/_200sdp"
